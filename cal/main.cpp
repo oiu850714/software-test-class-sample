@@ -1,7 +1,7 @@
 #include <iostream>
-//#include "cal.cpp"
+#include "cal.h"
 using namespace std;
-int cal(char, float, float);
+
 int main(){
 
     char op;
