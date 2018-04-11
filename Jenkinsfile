@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'make/cal'
+                sh 'make -C make test'
             }
         }
     }

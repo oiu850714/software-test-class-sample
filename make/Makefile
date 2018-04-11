@@ -79,3 +79,6 @@ cal_unittest.o : $(USER_DIR)/cal_unittest.cpp $(GTEST_HEADERS)
 
 cal : cal.o cal_unittest.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
+
+test : cal
+	./cal
