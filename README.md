@@ -5,4 +5,4 @@ use google test as framework
 ### step
 	cd make
 	make
-	./cal
+	make test
