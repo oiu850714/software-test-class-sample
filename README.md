@@ -14,7 +14,8 @@ make test   - run googletest executable file.
 
 make gcov   - run gcov to get coverage informtion.
 
-### steps
+## steps
+How to judge
 	cd make
 	make
 	make test
