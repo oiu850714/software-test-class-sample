@@ -1,6 +1,8 @@
 # software-test-class-sample
 Software test class sample code
 
+#support jenkins file
+
 Use google test as framework
 
 ## Makefile
@@ -20,3 +22,5 @@ make gcov   - run gcov to get coverage informtion.
 	make
 	make test
 	make gcov
+
+#
